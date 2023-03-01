@@ -36,7 +36,6 @@ from sklearn.ensemble import VotingClassifier
 import joblib
 from sklearn.naive_bayes import BernoulliNB, GaussianNB, MultinomialNB
 import pickle
-import joe
 
 df= pd.read_csv("tweetinfo.csv", encoding = 'latin1')
 labels=df.FinalLabel
